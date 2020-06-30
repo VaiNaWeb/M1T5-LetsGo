@@ -27,14 +27,37 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 45%;
-    padding-left: 10rem;
-    height: 40vh;
-    font-family: 'Oleo Script', cursive
+    width: 55vw;
+    padding-left: 4rem;
+    height: 27vh;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 138px;
+    color: #732E1F;
+    font-size: 24px;
 }
 .div-header-text p{ 
     text-align: right ;
     padding-right: 2rem;
+}
+
+.div-header-button{
+    padding-left: 4rem;
+    height: 85vh;
+}
+
+.cheader-button{
+    border: 1px solid #DFD7C9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Old Standard TT', serif;
+    font-size:22px;
+    padding:6px 10px;
+    background-color: transparent;
+    color: #DFD7C9;
+    cursor: pointer;
+    width: 134px;
+    height: 45px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo-header{
@@ -61,17 +84,12 @@
 .nav-header{
     display: flex;
     width: 100%;
-    font-family: 'Oleo Script', cursive;
+    font-family: 'Old Standard TT', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
-}
-
-.header-text{
-    
-}
-.header-button{
-
+    font-size: 23px;
+    color: #BF6F41;
+    align-items: center;
 }
 
 .nav-list{
@@ -83,13 +101,13 @@
 }
 
 .list{
-    margin-right: 3%;
+    margin-right: 52px;
 }
 
 .bcontent-top{
     display: flex;
     width: 100%;
-    height: 85vh;
+    height: 68vh;
     flex-direction: column;
     background-color: #F2EBDC;
 }
@@ -101,7 +119,7 @@
     text-align: center;
     padding-top: 4rem;
     padding-bottom: 6rem;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .images-bcontent-top{
@@ -113,42 +131,44 @@
     width: 100%;
 }
 
+.text-img-bcontent-top{
+    margin-top: 20px;
+}
+
 .img-bcontent-top {
-    width: 23.3vw;
-    font-family: 'Oleo Script', cursive;
+    width: 29.3vw;
+    font-family:  'Old Standard TT', serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
 }
 
 .img-bcontent-top p{
-    text-align: center;
+    text-align: left;
 }
 
-.content-bottom{
-    padding-left: 10rem;
-    height: 85vh;
-}
-
-.cheader-button{
-    border: 1px solid #BF6F41;
+.images-button{
+    border: 1px solid #732E1F;
     box-sizing: border-box;
     border-radius: 4px;
     font-family: 'Old Standard TT', serif;
-    font-size:13px;
+    font-size:18px;
     padding:6px 10px;
     background-color: transparent;
     color: #BF6F41;
     cursor: pointer;
+    margin-top: 10px;
+    width: 134px;
+    height: 37px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.header-button{
-    border: 1px solid #BF6F41;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-family: 'Old Standard TT', serif;
-    font-size:13px;
-    padding:6px 10px;
+.button-images-bcontent-top{
+    display: flex;
+    justify-content: space-around;
     background-color: #F2EBDC;
-    color: #BF6F41;
-    cursor: pointer;
 }
 
 .bcontent-bottom {
@@ -160,10 +180,10 @@
 
 .image-bcontent-bottom {
     background-image: url(assets/medit.png);
-    background-position-y: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 430px;
+    height: 51vh;
     width: 100%;
     display: flex;
     align-items: center;
