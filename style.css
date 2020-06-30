@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#body{
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    background: url(assets/img-header.png);
+    height: 67vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-header-nav {
+    display: flex;
+    margin: 30px 110px;
+}
+
+.div-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55vw;
+    padding-left: 4rem;
+    height: 27vh;
+    font-family: 'Oleo Script', cursive;
+    margin-top: 138px;
+    color: #732E1F;
+    font-size: 24px;
+}
+.div-header-text p{ 
+    text-align: right ;
+    padding-right: 2rem;
+}
+
+.div-header-button{
+    padding-left: 4rem;
+    height: 85vh;
+}
+
+.cheader-button{
+    border: 1px solid #DFD7C9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Old Standard TT', serif;
+    font-size:22px;
+    padding:6px 10px;
+    background-color: transparent;
+    color: #DFD7C9;
+    cursor: pointer;
+    width: 134px;
+    height: 45px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-header{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.small-man{
+    width: 50px;
+    height: 50px;
+}
+
+.man{
+    width: 60px;
+    height: 60px;
+}
+
+.big-man{
+    width: 70px;
+    height: 70px;
+}
+
+.nav-header{
+    display: flex;
+    width: 100%;
+    font-family: 'Old Standard TT', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    color: #BF6F41;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-content: flex-end;
+    list-style: none;
+}
+
+.list{
+    margin-right: 52px;
+}
+
+.bcontent-top{
+    display: flex;
+    width: 100%;
+    height: 68vh;
+    flex-direction: column;
+    background-color: #F2EBDC;
+}
+
+.p-bcontent-top{
+    width: 100%;
+    height: 6vh;
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    font-size: 25px;
+}
+
+.images-bcontent-top{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.config-images-bcontent-top{
+    width: 100%;
+}
+
+.text-img-bcontent-top{
+    margin-top: 20px;
+}
+
+.img-bcontent-top {
+    width: 29.3vw;
+    font-family:  'Old Standard TT', serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.img-bcontent-top p{
+    text-align: left;
+}
+
+.images-button{
+    border: 1px solid #732E1F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Old Standard TT', serif;
+    font-size:18px;
+    padding:6px 10px;
+    background-color: transparent;
+    color: #BF6F41;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 134px;
+    height: 37px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-images-bcontent-top{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2EBDC;
+}
+
+.bcontent-bottom {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-bcontent-bottom {
+    background-image: url(assets/medit.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 51vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 36px;
+    color: #DFD7C9;
+}
+
+.p-bcontent-bottom {
+    height: 370px;
+    width: 100%;
+    display: flex;
+    background-color: #FFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Old Standard TT', serif;
+    color: #732E1F;
+}
+
+.p-text-bcontent-bottom {
+    font-size: 45px;
+    margin: 0px 35px 0px 35px;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+}
+
+.p-author-bcontent-bottom {
+    font-size: 24px;
+    margin: 0px 220px 0px 35px;
+    text-align: end;
+    font-family: 'Oleo Script', cursive;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 430px;
+    background-color:#F2EBDC;
+    width: 100%;
+    align-items: center;
+}
+
+.men-travel {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.signup-field-footer {
+    display: flex;
+    margin-top: 60px;
+}
+
+.box-email-footer {
+    height: 35px;
+    border: 1px solid #FFF;
+    margin-right: 7px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFF;
+    padding: 5px;
+}
+
+.button-footer {
+    height: 35px;
+    width: 95px;
+    font-family: Old Standard TT;
+    font-size: 14px;
+    color: #732E1F;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #732E1F;
+}
+
+.icons-footer {
+    display: flex;
+    justify-content: space-around;
+    width: 210px;
+    margin: 60px 0px 30px 0px;
+}
